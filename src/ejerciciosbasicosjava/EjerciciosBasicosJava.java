@@ -159,67 +159,67 @@ public class EjerciciosBasicosJava {
         // Creamos un objeto propio de la clase. (Ejercicios basicos Java)
         EjerciciosBasicosJava ejercicio = new EjerciciosBasicosJava();
         
-        
+        // EJERCICIO 1 
         System.out.println("EJERCICIO BELLOTA\n");
         System.out.println(ejercicio.fiestaArdillas(30, false));
         System.out.println(ejercicio.fiestaArdillas(50, false));
         System.out.println(ejercicio.fiestaArdillas(70, true));
         System.out.println("\n");
-        
+        //EJERCICIO 2 
         System.out.println("EJERCICIO MULTA\n");
         System.out.println(ejercicio.multa(60, false));
         System.out.println(ejercicio.multa(65, false));
         System.out.println(ejercicio.multa(65, true));
         System.out.println("\n");
-        
+        //EJERCICIO 3
         System.out.println("EJERCICIO VANIDOSO\n");
         System.out.println(ejercicio.muyVanidoso(22));
         System.out.println(ejercicio.muyVanidoso(23));
         System.out.println(ejercicio.muyVanidoso(24));
         System.out.println("\n");
-        
+        //EJERCICIO 4
         System.out.println("EJERCICIO CONTESTAR\n");
         System.out.println(ejercicio.contestar(false, false, false));
         System.out.println(ejercicio.contestar(false, false, true));
         System.out.println(ejercicio.contestar(true, false, false));
         System.out.println("\n");
-        
+        //EJERCICIO 5 
         System.out.println("EJERCICIO MENOR POR 10\n");
         System.out.println(ejercicio.menorPor10(1, 7, 11));
         System.out.println(ejercicio.menorPor10(1, 7, 10));
         System.out.println(ejercicio.menorPor10(11, 1, 7));
         System.out.println("\n");
-        
+        //EJERCICIO 6 
         System.out.println("EJERCICIO DIGITO REPETIDO\n");
         System.out.println(ejercicio.digitoRepetido(12, 23));
         System.out.println(ejercicio.digitoRepetido(12, 43));
         System.out.println(ejercicio.digitoRepetido(12, 44));
         System.out.println("\n");
-        
+        //EJERCICIO 7
         System.out.println("EJERCICIO MULTIPLO DE 5 O DE 3\n");
         System.out.println(ejercicio.multiplo5o3(3));
         System.out.println(ejercicio.multiplo5o3(10));
         System.out.println(ejercicio.multiplo5o3(15));
         System.out.println("\n");
-        
+        //EJERCICIO 8
         System.out.println("MENOS 20\n");
         System.out.println(ejercicio.menos20(58));
         System.out.println(ejercicio.menos20(59));
         System.out.println(ejercicio.menos20(20));
         System.out.println("\n");
-        
+        //EJERCICIO 9
         System.out.println("LOTERIA\n");
         System.out.println(ejercicio.loteria(2, 2, 2));
         System.out.println(ejercicio.loteria(2, 2, 1));
         System.out.println(ejercicio.loteria(0, 0, 0));
         System.out.println("\n");
-        
+        //EJERCICIO 10
         System.out.println("LOTERIA\n");
         System.out.println(ejercicio.loteria(2, 2, 2));
         System.out.println(ejercicio.loteria(2, 2, 1));
         System.out.println(ejercicio.loteria(0, 0, 0));
         System.out.println("\n");
-        
+        //EJERCICIO 11
         System.out.println("WITHOUT DOUBLES\n");
         System.out.println(ejercicio.withoutDoubles(2, 3, true));
         System.out.println(ejercicio.withoutDoubles(3, 3, true));
